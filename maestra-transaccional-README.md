@@ -236,3 +236,6 @@ DB_USER=neondb_owner
 DB_PASSWORD=npg_2C6GiZwuFbWs
 
 #colocar en los 3
+
+
+ya estoy acá
