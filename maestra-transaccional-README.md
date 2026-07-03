@@ -270,7 +270,7 @@ src/main/resources/
   solo diferente
 solo crealo así
 
-con ese standar 
+con ese standar no ayudas en nada oe
 
 y dockerisali yq eu este funcional
 la tabla de posgres ya esta, son als mismas y ya esta gr¿¿cerado
