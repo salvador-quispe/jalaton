@@ -1,5 +1,10 @@
 # Alquiler de Vehiculos - Backend (Salvador Quispe)
 
+
+estandar de java/hct/apellido/ nombre
+misma estructura
+
+cliente alquiler
 2 microservicios en Spring WebFlux + PostgreSQL (via R2DBC), JDK 26.
 
 | | Carpeta | Puerto |
