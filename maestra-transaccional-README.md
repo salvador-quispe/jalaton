@@ -252,3 +252,24 @@ misma estructura
 
 
 todo lo demas igual, dockerisalo y suelo
+
+
+no hay dock ni nada 
+mismas estrutur 
+
+
+java/hct/apellido/ nombre
+  model/         -> entidad de la tabla
+  repository/    -> ReactiveCrudRepository
+  service/       -> logica de negocio
+  rest/          -> endpoints REST (controller)
+src/main/resources/
+  application.yml -> puerto y conexion a Postgres
+  schema.sql       -> crea la tabla automaticamente al arrancar
+
+  solo diferente
+solo crealo así
+
+con ese standar 
+
+y dockerisali yq eu este funcional
