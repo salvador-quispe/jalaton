@@ -220,12 +220,13 @@ src/main/java/com/salvador/quispe/
   model/         -> entidad de la tabla
   repository/    -> ReactiveCrudRepository
   service/       -> logica de negocio
-  controller/    -> endpoints REST
+  rest/          -> endpoints REST (controller)
 src/main/resources/
   application.yml -> puerto y conexion a Postgres
   schema.sql       -> crea la tabla automaticamente al arrancar
 ```
 `transaccional` ademas tiene `client/` con el `WebClient` (`ClienteClient`) que llama a `maestra`.
+
 
 
 DB_HOST=ep-twilight-union-adfs9lp2-pooler.c-2.us-east-1.aws.neon.tech

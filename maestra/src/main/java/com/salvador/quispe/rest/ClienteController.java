@@ -1,4 +1,4 @@
-package com.salvador.quispe.controller;
+package com.salvador.quispe.rest;
 
 import com.salvador.quispe.model.Cliente;
 import com.salvador.quispe.service.ClienteService;
