@@ -244,3 +244,11 @@ DB_PASSWORD=npg_2C6GiZwuFbWs
 
 
 ya estoy acá
+
+
+
+estandar de java/hct/apellido/ nombre
+misma estructura
+
+
+todo lo demas igual, dockerisalo y suelo
