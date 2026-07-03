@@ -273,3 +273,4 @@ solo crealo así
 con ese standar 
 
 y dockerisali yq eu este funcional
+la tabla de posgres ya esta, son als mismas y ya esta gr¿¿cerado
