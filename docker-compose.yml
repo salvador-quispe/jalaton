@@ -1,0 +1,29 @@
+services:
+  maestra:
+    image: salvaqc/maestra:latest
+    build: ./maestra
+    container_name: maestra
+    ports:
+      - "8083:8083"
+    environment:
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      DB_NAME: ${DB_NAME}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+
+  transaccional:
+    image: salvaqc/transaccional:latest
+    build: ./transaccional
+    container_name: transaccional
+    ports:
+      - "8084:8084"
+    environment:
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      DB_NAME: ${DB_NAME}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      MAESTRA_SERVICE_URL: http://maestra:8083
+    depends_on:
+      - maestra
